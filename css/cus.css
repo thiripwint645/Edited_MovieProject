@@ -319,7 +319,7 @@ section.hero-textbox h3 {
 }
 /*👉video 👈*/
 video {
-  object-fit: cover;
+  object-fit: contain;
 }
 #video-container {
   max-height: 460px;
