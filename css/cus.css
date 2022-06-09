@@ -269,7 +269,6 @@ nav {
   background-color: var(--dark);
   z-index: 4000;
 }
-
 /*👉hero text box👈*/
 section.hero-textbox {
   align-items: center;
@@ -322,12 +321,11 @@ video {
   object-fit: contain;
 }
 #video-container {
-  max-height: 460px;
+  max-height: 450px;
   overflow: hidden;
   /*👉  margin-bottom: 40px;👈*/
   position: relative;
 }
-
 #home-bg-video {
   min-width: 100%;
   height: auto;
@@ -733,7 +731,7 @@ figure.effect-ming:hover img {
 
 .icon-little {
   font-size: 32px;
-  color: var(--pure);
+  color: var(--primary);
 }
 
 .footer-links li {
@@ -829,7 +827,7 @@ figure.effect-ming:hover img {
 }
 
 hr {
-  box-shadow: 0px 0px 1px 1px var(--dark-gray);
+  box-shadow: 0px 0px 1px 1px var(--primary) !important;
 }
 
 .input-box {
@@ -911,6 +909,11 @@ hr {
   opacity: 1;
 }
 
+.ft-icon {
+  font-size: 12px;
+  color: var(--primary);
+}
+
 /* from 1025 to 1200px */
 
 @media only screen and (max-width: 1200px) {
@@ -926,17 +929,11 @@ hr {
   body {
     font-size: 20px;
   }
-  section {
-    padding: 60px 0px;
-  }
 }
 
 /* small phone to small tablet from 577 to 768px */
 
 @media only screen and (max-width: 768px) {
-  section {
-    padding: 30px 0;
-  }
   .social-font {
     display: none;
   }
@@ -953,7 +950,7 @@ hr {
   .service-tab p {
     line-height: 50px;
     margin-bottom: 80px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .r-tabs .r-tabs-nav {
@@ -970,7 +967,7 @@ hr {
     width: 100%;
   }
   .icon-little {
-    font-size: 33px;
+    font-size: 30px;
   }
   .footer-icon {
     right: 6px;
@@ -986,9 +983,7 @@ hr {
   body {
     font-size: 16px;
   }
-  section {
-    padding: 15px 0;
-  }
+
   section.hero-textbox h2 {
     font-size: 28px;
     font-weight: 200;
@@ -997,7 +992,10 @@ hr {
     font-size: 20px;
     font-weight: 100;
   }
-
+  #home-bg-video {
+    margin-top: 70px;
+    height: 210px;
+  }
   .team-member-info {
     width: 100%;
     height: 50%;
