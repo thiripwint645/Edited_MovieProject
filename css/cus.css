@@ -94,29 +94,23 @@ font-family: 'Raleway', sans-serif;👈*/
 }
 .loaded #loader-wrapper .loader-section.section-right {
   transform: translateX(100%);
-
   transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .loaded #loader {
   opacity: 0;
-
   transition: all 0.3s ease-out;
 }
 .loaded #loader-wrapper {
   visibility: hidden;
-
   transform: translateY(-100%);
-
   transition: all 0.3s 1s ease-out;
 }
 
 * {
   padding: 0;
   margin: 0;
-
   box-sizing: border-box;
-
   scroll-behavior: smooth;
 }
 
@@ -159,9 +153,7 @@ nav {
 
 .nav-wrapper ul.nav-list {
   list-style-type: none;
-
   display: flex;
-
   align-items: center;
 }
 
@@ -251,7 +243,6 @@ nav {
 
 .mobile .hamburger span {
   transform-origin: left;
-
   transition: all 0.3s ease-in-out;
 }
 
@@ -313,7 +304,7 @@ section.hero-textbox h3 {
 
 .social-font {
   font-size: 18px;
-  font-family: "Font Awesome 6 Brands";
+  font-family: "Font Awesome 6.1";
   text-transform: uppercase;
 }
 /*👉video 👈*/
@@ -382,10 +373,10 @@ section {
 
 /*👉movies in theatre👈*/
 
-.word-rate {
+/*👉.word-rate {
   vertical-align: top;
   font-weight: 400;
-}
+}👈*/
 
 .owl-carousel .owl-item img.stars {
   display: inline-block;
@@ -634,7 +625,7 @@ figure.effect-ming:hover img {
 }
 
 #services-tab ul li a {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--pure);
   text-transform: uppercase;
   font-weight: 400;
@@ -980,10 +971,6 @@ hr {
 /* small phone from 0 to 576px */
 
 @media only screen and (max-width: 576px) {
-  body {
-    font-size: 16px;
-  }
-
   section.hero-textbox h2 {
     font-size: 28px;
     font-weight: 200;
@@ -991,6 +978,9 @@ hr {
   section.hero-textbox h3 {
     font-size: 20px;
     font-weight: 100;
+  }
+  h3 {
+    font-size: 22px;
   }
   #home-bg-video {
     margin-top: 70px;
