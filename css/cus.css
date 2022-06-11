@@ -143,7 +143,8 @@ nav {
 }
 
 .brand svg {
-  height: 30px;
+  width: 42px;
+  height: 42px;
   margin-right: 10px;
 }
 
@@ -284,11 +285,6 @@ section.hero-textbox h3 {
   margin-bottom: 20px;
   font-family: "Open Sans", sans-serif;
   word-spacing: 1rem;
-}
-
-.icon-big {
-  font-size: 80px;
-  color: var(--primary);
 }
 
 .social-icon {
@@ -720,11 +716,6 @@ figure.effect-ming:hover img {
   background-color: var(--primary);
 }
 
-.icon-little {
-  font-size: 32px;
-  color: var(--primary);
-}
-
 .footer-links li {
   list-style: none;
   margin-bottom: 5px;
@@ -957,9 +948,6 @@ hr {
   .input-box input {
     width: 100%;
   }
-  .icon-little {
-    font-size: 30px;
-  }
   .footer-icon {
     right: 6px;
   }
@@ -971,6 +959,10 @@ hr {
 /* small phone from 0 to 576px */
 
 @media only screen and (max-width: 576px) {
+  .brand svg {
+    width: 32px;
+    height: 32px;
+  }
   section.hero-textbox h2 {
     font-size: 28px;
     font-weight: 200;
@@ -990,10 +982,6 @@ hr {
     width: 100%;
     height: 50%;
     padding: 10px 0;
-  }
-
-  .icon-big {
-    font-size: 55px;
   }
   .social-font {
     display: none;
@@ -1041,9 +1029,7 @@ hr {
     width: 90px;
     height: 90px;
   }
-  .icon-little {
-    font-size: 27px;
-  }
+
   .footer-icon {
     width: 40px;
     height: 40px;
