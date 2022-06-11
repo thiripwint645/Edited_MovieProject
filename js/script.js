@@ -15,7 +15,6 @@ window.onload = addRequiredClass;
 
 let hamburger = document.querySelector(".hamburger");
 let mobileNav = document.querySelector(".nav-list");
-
 let bars = document.querySelectorAll(".hamburger span");
 
 let isActive = false;

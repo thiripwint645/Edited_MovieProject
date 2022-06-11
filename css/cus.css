@@ -41,7 +41,6 @@ font-family: 'Raleway', sans-serif;👈*/
   border-radius: 50%;
   border: 3px solid transparent;
   border-top-color: #e74c3c;
-
   animation: spin 3s linear infinite;
 }
 
@@ -55,7 +54,6 @@ font-family: 'Raleway', sans-serif;👈*/
   border-radius: 50%;
   border: 3px solid transparent;
   border-top-color: #f9c922;
-
   animation: spin 1.5s linear infinite;
 }
 
@@ -89,7 +87,6 @@ font-family: 'Raleway', sans-serif;👈*/
 /* Loaded */
 .loaded #loader-wrapper .loader-section.section-left {
   transform: translateX(-100%);
-
   transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .loaded #loader-wrapper .loader-section.section-right {
@@ -168,7 +165,6 @@ nav {
   color: var(--pure);
   text-decoration: none;
   letter-spacing: 1px;
-
   transition: all 0.5s ease-in-out;
 }
 
@@ -195,7 +191,6 @@ nav {
     transform: translateX(-50%) translateY(20px);
   }
 }
-
 .hamburger {
   display: none;
 }
@@ -215,7 +210,6 @@ nav {
 }
 
 .mobile ul.nav-list {
-  background: -o-linear-gradient(45deg, #434343, #000000);
   background: linear-gradient(45deg, #434343, #000000);
   position: fixed;
   left: 0;
@@ -261,6 +255,7 @@ nav {
   background-color: var(--dark);
   z-index: 4000;
 }
+
 /*👉hero text box👈*/
 section.hero-textbox {
   align-items: center;
@@ -289,7 +284,6 @@ section.hero-textbox h3 {
 
 .social-icon {
   font-size: 30px;
-
   transition: 0.5s;
   text-decoration: none;
 }
@@ -745,7 +739,6 @@ figure.effect-ming:hover img {
   color: #fff;
   font-size: 17px;
   text-decoration: none;
-
   transition: all 0.4s ease;
 }
 
@@ -916,6 +909,9 @@ hr {
 /* small phone to small tablet from 577 to 768px */
 
 @media only screen and (max-width: 768px) {
+  ul.nav-list.open {
+    padding-left: 0px;
+  }
   .social-font {
     display: none;
   }
@@ -962,6 +958,9 @@ hr {
   .brand svg {
     width: 32px;
     height: 32px;
+  }
+  ul.nav-list.open {
+    padding-left: 0px;
   }
   section.hero-textbox h2 {
     font-size: 28px;
