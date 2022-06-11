@@ -1060,4 +1060,10 @@ hr {
   footer p {
     font-size: 14px;
   }
+  footer ul {
+    padding-left: 1em !important;
+  }
+  footer .footer-links {
+    padding-left: 1em !important;
+  }
 }
