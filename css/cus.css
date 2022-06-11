@@ -1055,4 +1055,7 @@ hr {
   .pg2-footer-icon {
     right: 6px;
   }
+  footer p {
+    font-size: 14px;
+  }
 }
