@@ -768,11 +768,25 @@ figure.effect-ming:hover img {
 }
 
 .media-icons a:nth-child(3) {
-  background: #e1306c;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
 }
 
 .media-icons a:nth-child(3):hover {
-  color: #e1306c;
+  color: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   background: #fff;
 }
 
@@ -804,10 +818,6 @@ figure.effect-ming:hover img {
 
 hr {
   box-shadow: 0px 0px 1px 1px var(--primary) !important;
-}
-
-.input-box {
-  margin-right: 55px;
 }
 
 .input-box input {
@@ -951,6 +961,9 @@ hr {
   .pg2-footer-icon {
     right: 6px;
   }
+  footer .footer-links {
+    padding-left: 0;
+  }
 }
 
 /* small phone from 0 to 576px */
@@ -1065,6 +1078,9 @@ hr {
     padding-left: 1em !important;
   }
   footer .footer-links {
+    padding-left: 1em !important;
+  }
+  footer .footer-about {
     padding-left: 1em !important;
   }
 }
