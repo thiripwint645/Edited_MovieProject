@@ -779,14 +779,7 @@ figure.effect-ming:hover img {
 }
 
 .media-icons a:nth-child(3):hover {
-  color: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  color: #d6249f !important;
   background: #fff;
 }
 
