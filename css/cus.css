@@ -30,7 +30,6 @@ font-family: 'Raleway', sans-serif;👈*/
   /*👉  z-index: 1002;👈*/
   z-index: 5002;
 }
-
 #loader:before {
   content: "";
   position: absolute;
@@ -43,7 +42,6 @@ font-family: 'Raleway', sans-serif;👈*/
   border-top-color: #e74c3c;
   animation: spin 3s linear infinite;
 }
-
 #loader:after {
   content: "";
   position: absolute;
@@ -133,7 +131,6 @@ nav {
   justify-content: space-between;
   overflow: hidden;
 }
-
 .brand {
   display: flex;
   align-items: center;
@@ -352,7 +349,6 @@ section {
   font-size: 14px;
   cursor: pointer;
   letter-spacing: 1px;
-  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -361,13 +357,6 @@ section {
   background: transparent;
   border-color: var(--pure);
 }
-
-/*👉movies in theatre👈*/
-
-/*👉.word-rate {
-  vertical-align: top;
-  font-weight: 400;
-}👈*/
 
 .owl-carousel .owl-item img.stars {
   display: inline-block;
@@ -564,7 +553,6 @@ figure.effect-ming {
 }
 figure.effect-ming img {
   opacity: 0.9;
-
   transition: opacity 0.35s;
 }
 figure.effect-ming figcaption::before {
@@ -577,9 +565,7 @@ figure.effect-ming figcaption::before {
   box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
   content: "";
   opacity: 0;
-
   transition: opacity 0.35s, transform 0.35s;
-
   transform: scale3d(1.4, 1.4, 1);
 }
 figure.effect-ming h2 {
